@@ -1,0 +1,18 @@
+phpcodesniffer-drupal:
+  image: civicactions/codeclimate-phpcodesniffer-drupal
+  description: Detects violations of a defined set of coding standards in PHP for Drupal.
+  community: true
+  enable_regexps:
+  default_ratings_paths:
+    - "**.php"
+    - "**.module"
+    - "**.inc"
+    - "**.install"
+    - "**.test"
+    - "**.profile"
+    - "**.theme"
+    - "**.js"
+    - "**.css"
+    - "**.info"
+    - "**.txt"
+    - "**.md"
